@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    list-style: none;
+}
+body{
+    background: url(../IMG/pic12.jpg);
+    background-position: center;
+    
+}
+#content{
+    width: 960px;
+    margin: 0 auto;
+}
+nav{
+    padding: 30px;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    background-color: darkcyan;
+    opacity: 0.9;
+    color: black;
+    z-index: 1;
+}
+.nav-content img{
+    margin-top: -20px;
+    margin-left: 100px;
+    position: relative;
+    width: 110px;
+}
+
+
+.nav-content h3{
+    padding: auto;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    letter-spacing: 4px;
+    color: tan;
+    margin-left: -200px;
+}
+.nav-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.nav-content ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: auto;
+    margin-top: 3px;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color: wheat; 
+}
+.navbar ul li:hover{
+    background-color: cadetblue;
+
+}
+
+
+nav{
+    background: darkcyan;
+    padding: 30px;
+     
+}
+
+
+.imageslider{
+    margin-top: 50px;
+    opacity: 1;
+}
+
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+
+}
+
+
+header{
+    margin-top: 50px;
+    background-color: cadetblue;
+    padding: 30px;
+    color: wheat;
+    
+}
+header h2{
+    letter-spacing: 10px;
+    word-spacing: 3px;
+    margin-top: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+header hr{
+    margin-top: 75px;
+}
+header p{
+    margin-top: 80px;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    text-align: center;
+    font-size: x-large;
+    
+
+}
+
+
+
+main{
+    background: cadetblue;
+    padding: 30px;
+    color: wheat;
+}
+
+main h2{
+    letter-spacing: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    
+}
+main p{
+    letter-spacing: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger; 
+    word-spacing: 5px;  
+}
+.main1 p{
+    margin-top: 30px;
+    font-size: x-large;
+}
+.main2 p{
+    margin-top: 30px;
+    font-size: x-large;
+}
+.context{
+    margin-top: 12px;
+}
+aside{
+    background-color: cadetblue;
+    padding: 30px;
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    text-align: center;
+}
+
+.songs{
+    display: grid;
+    grid-template-rows: (5 1fr);
+    float: left;
+}
+.songs h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-style: normal;
+    letter-spacing: 10px;
+    margin-top: 50px;
+}
+.songs ul{
+    line-height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-style: normal;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: wheat;
+}
+.songs ul li:hover{
+    background-color: darkcyan;
+
+}
+.quotes img{
+    margin-top: 80px;
+    width: 210px;
+    height: 220px;
+}
+
+
+
+
+
+.map {
+    margin-top: 10px;
+}
+
+footer{
+    background: darkcyan;
+    padding: 30px;
+    
+}
+.contact{
+    display: grid;
+    grid-template-rows: (4 1fr);
+
+}
+.contact h2{
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-style: normal;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+    color: wheat;
+    
+}
+.contact ul{
+    margin-top: 30px;
+    line-height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-style: normal;
+    letter-spacing: 10px;
+    font-weight: 500;
+    color: wheat;
+}
+
+.copyright p{
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 20px;
+    font-size: medium;
+    word-spacing: 10px;
+    background-color: cadetblue;
+}
